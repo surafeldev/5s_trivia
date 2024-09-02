@@ -6,16 +6,16 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract QuizToken is ERC20 {
 
-    uint256 public rewardAmount;
+    uint256 public rewardAmount = 50*10**18;
     address public owner;
     
     mapping(address => uint256) public userStreak;
 
     event QuizCompleted(address indexed user, uint256 tokensAwarded);
 
-    constructor( uint256 _rewardAmount) ERC20("QuizToken", "QUIZ") {
+    constructor() ERC20("QuizToken", "QUIZ") {
        owner = msg.sender;
-        rewardAmount = _rewardAmount;
+        
     }
 
     // Function to reward users after they answer all questions correctly

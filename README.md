@@ -1,13 +1,37 @@
-# Sample Hardhat Project
+# 5sTrivia
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+5sTrivia is a daily trivia game designed to challenge your knowledge and reward your expertise with platform-specific tokens. Each day, you have the chance to answer 5 trivia questions within 50 seconds. Answer all questions correctly, and you'll earn 50 TRIVS, the native tokens of the 5sTrivia platform. Come back the next day for a new set of questions and more opportunities to earn rewards!
 
-Try running some of the following tasks:
+## How It Works
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- **Daily Challenge**: Answer 5 trivia questions each day.
+- **Time Limit**: You have 50 seconds to complete the quiz.
+- **Reward**: Earn 50 TRIVS for answering all questions correctly.
+- **New Questions**: Return the next day for a fresh set of questions.
+
+## Screenshots
+
+Here’s a glimpse of the 5sTrivia game:
+
+| ![Home](<Screenshot from 2024-09-02 22-56-11.png>) | ![Countdown](<Screenshot from 2024-09-02 22-57-12.png>) |
+|:--------------------------------------------------:|:-----------------------------------------------------:|
+| **Home Screen**                                   | **Countdown Timer**                                  |
+
+| ![Finished](<Screenshot from 2024-09-02 22-59-37.png>) | |
+|:---------------------------------------------------:|:---------------------------------------------------:|
+| **Finished Screen**                               | |
+
+## Getting Started
+
+1. **Daily Play**: Visit each day to take on the daily trivia challenge.
+2. **Earn TRIVS**: Accumulate TRIVS tokens based on your performance.
+3. **Store Rewards**: Store your rewards since the team is working on where to use them!
+
+## Demo
+Live link ()
+
+For more information, visit our [website](#) or contact support at [support@5strivia.com](mailto:jeffianmuchiri24@gmail.com).
+
+---
+
+Enjoy your trivia journey and good luck with the daily challenges!
