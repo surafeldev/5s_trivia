@@ -42,7 +42,7 @@ const Header = () => {
 
           {isConnected && (
             <div className="text-lg text-gray-700 bg-teal-200 px-2 py-1 rounded">
-              Rewards: {Number(balance) / 10 ** 18} Trivs
+              Rewards: {Number(balance) / 10 ** 18} TRIVS
             </div>
           )}
         </header>

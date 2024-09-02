@@ -171,7 +171,7 @@ const Questions = () => {
           </svg>
         </div>
         <div className="text-2xl font-bold text-white mb-2">
-          You've already participated today!
+          You&apos;ve already participated today!
         </div>
         <p className="text-lg text-white">
           Come back tomorrow to answer a new Trivia and earn more rewards.
