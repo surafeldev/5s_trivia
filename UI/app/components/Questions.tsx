@@ -95,6 +95,7 @@ const Questions = () => {
           }));
 
           setQuestions(formattedQuestions);
+          console.log(formattedQuestions);
           localStorage.setItem(DAILY_QUESTION_KEY, JSON.stringify(formattedQuestions));
         } catch (error: any) {
           console.error(error.message);
@@ -125,18 +126,14 @@ const Questions = () => {
     ) {
       setScore(score + 1);
       console.log(score);
-      localStorage.setItem(
-        PARTICIPATION_KEY,
-        JSON.stringify({ date: getCurrentDate(), correct: true })
-      );
-      setHasParticipated(true);
+      
     }
-
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setShowResult(true);
     }
+   
   };
 
   const resetQuiz = () => {
@@ -187,8 +184,6 @@ const Questions = () => {
       </div>
     );
   }
-  
-
   return (
     <div>
       {!hasParticipated && (
