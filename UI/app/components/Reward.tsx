@@ -44,6 +44,7 @@ const Reward = () => {
         toast("unable to claim");
       }
     } else {
+      toast("Connect wallet to claim reward");
       connect({ connector: injected() });
     }
   };
