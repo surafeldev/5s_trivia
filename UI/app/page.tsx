@@ -32,10 +32,10 @@ export default function Home() {
               <p className="text-lg">
                 5sTrivia is a daily trivia game. You have 50 seconds to answer 5
                 questions. If you answer all the questions correctly, you
-                receive 50 Trivs tokens.
+                receive 50 TRIVS tokens.
               </p>
               <p className="text-lg">
-                You can use the tokens to retake the quiz.
+                Store the rewards, Trivias will reveal their use soon.
               </p>
               <button
                 onClick={handlePlay}
